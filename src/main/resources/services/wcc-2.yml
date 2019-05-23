@@ -1,0 +1,10 @@
+--- !<org.apereo.cas.services.RegexRegisteredService>
+serviceId: "^(https|imaps|http)://.*"
+name: "wcc"
+id: 2
+description: "description"
+evaluationOrder: 100000
+attributeReleasePolicy: !<org.apereo.cas.services.ReturnAllAttributeReleasePolicy> {}
+accessStrategy: !<org.apereo.cas.services.DefaultRegisteredServiceAccessStrategy>
+  enabled: true
+  ssoEnabled: true

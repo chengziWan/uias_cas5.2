@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.example.cas.config.CustomerAuthWebflowConfiguration,\
+com.example.cas.config.CustomerHandlerConfiguration
+
