@@ -168,12 +168,6 @@
 				    <version>${cas.version}</version>
 		        </dependency>
                 <!-- 自定义登录验证依赖 end -->
-                <!-- 审计日志记录到数据库 -->
-                <dependency>
-                	<groupId>org.apereo.cas</groupId>
-                	<artifactId>cas-server-support-audit-jdbc</artifactId>
-                	<version>${cas.version}</version>
-                </dependency>
                 
 				<!-- jpa services 配置添加依赖 -->
 				<!-- <dependency>
@@ -192,7 +186,7 @@
 		       <dependency>
 				     <groupId>org.apereo.cas</groupId>
 				     <artifactId>cas-server-support-pac4j-webflow</artifactId>
-				     <version>5.2.6</version>
+				     <version>${cas.version}</version>
 			   </dependency>
 			   
             </dependencies>
